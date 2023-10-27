@@ -1,5 +1,7 @@
 # PMSUI
 
+Product Manager System Web Full Stack Application created with Angular 16 for Client side, API with C# in .NET for backend side and SQL as database. Styles for client side made with BootStrap 5.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
 
 ## Development server
