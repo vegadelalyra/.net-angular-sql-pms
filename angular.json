@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "PMS.UI": {
+    "PMS_UI": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "PMS.UI:build:production"
+              "browserTarget": "PMS_UI:build:production"
             },
             "development": {
-              "browserTarget": "PMS.UI:build:development"
+              "browserTarget": "PMS_UI:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "PMS.UI:build"
+            "browserTarget": "PMS_UI:build"
           }
         },
         "test": {
